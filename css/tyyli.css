@@ -1,0 +1,157 @@
+h1{
+font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color:rgb(49,169,169);
+	padding-top: 50px
+}
+
+footer {
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+	padding:20px;
+}
+
+.container {
+	background-color:white;	
+}
+
+
+.yht {
+	display:inline-block;
+	width:100%	
+}
+
+.yht tr {
+	display:inline-block;
+	width:100%;	
+	padding:5px;
+}
+
+.yht td {
+	display:inline-block;
+	padding:2px;		
+}
+
+
+.page-header h1 {
+	text-align:center;
+}
+
+.otsikko {
+font-size:16px;
+color:white;
+background-color:rgba(56,152,241,1.00);
+text-align:center;
+border:thin;
+padding:8px;
+margin:3px;
+}
+
+.otsikko:hover {
+	background-color:rgba(0,0,130,1.00);
+}
+
+.teksti{
+	font-size:16px;
+	color:black;
+border:thin;
+padding:7px;
+display:none;
+}
+
+.kielet td{
+	padding:3px;
+}
+
+.panel-title{
+font-size:16px;
+color:white;
+background-color:rgba(56,152,241,1.00);
+text-align:center;
+border:thin;
+padding:8px;
+
+}
+
+.panel-title:hover{
+	background-color:rgba(0,0,130,1.00);
+}
+
+.panel-heading {
+	padding:0px;
+}
+
+.texts {
+    position: relative;
+	width:100%;
+	height:200px;
+	border:5px solid black:
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text_1{
+    opacity: 1
+}
+
+.text_2{
+   opacity: 0;
+}
+
+.modal {
+	overflow: auto;
+	color: #333;
+}
+
+.jumbotron{
+	background-color:rgb(41,131,131);
+}
+
+.info{
+	padding:20px;
+	min-height:400px;
+}
+
+#otsikko {margin-left:5px;
+		opacity:1;
+
+		letter-spacing:0.05em;
+		animation-name:siirry;
+		animation-duration:3s
+}
+		
+@keyframes siirry {from {margin-left:-1300px; 
+						color:white;
+						letter-spacing:1em; 
+						opacity:0}
+		
+					to 	{margin-left:5px;
+						color:black;
+						letter-spacing:0.05em;}
+}
+
+.nayte{
+	color:white;
+}
+
+.nayte:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
